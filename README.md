@@ -1,7 +1,6 @@
 # Hohe Dimensionen: wann trägt Bayessche Optimierung noch? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-high-dim-bo-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-high-dim-bo-demo.streamlit.app/)**
 
 Fünftes Stück der **Bayessche-Optimierung-Linie** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“.
 Es setzt [constrained-bo-demo](https://github.com/sebastian-hanisch/constrained-bo-demo) fort, wechselt aber das Beispiel: Statt des Terminals dienen zwei Testfunktionen mit
