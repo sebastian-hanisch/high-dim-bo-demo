@@ -1,4 +1,4 @@
-# Hohe Dimensionen: wann trägt Bayessche Optimierung noch? – Streamlit-Demo
+# Hohe Dimensionen: wann reicht Bayessche Optimierung noch? – Streamlit-Demo
 
 **[→ Demo live ausprobieren](https://sebastianhanisch-high-dim-bo-demo.streamlit.app/)**
 

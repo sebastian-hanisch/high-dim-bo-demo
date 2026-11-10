@@ -15,7 +15,7 @@ def build_pdf(settings, runs, optimum):
     pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(0, 10, "Hohe Dimensionen: wann trägt Bayessche Optimierung noch?", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 10, "Hohe Dimensionen: wann reicht Bayessche Optimierung noch?", new_x="LMARGIN", new_y="NEXT")
     pdf.set_font("Helvetica", "", 10)
     pdf.cell(0, 6, "Sebastian Hanisch, Operations Research und Machine Learning", new_x="LMARGIN", new_y="NEXT")
     pdf.ln(4)

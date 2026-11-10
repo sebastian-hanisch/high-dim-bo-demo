@@ -1,4 +1,4 @@
-"""Hohe Dimensionen: wann trägt Bayessche Optimierung noch? - interaktive Konzept-Demo
+"""Hohe Dimensionen: wann reicht Bayessche Optimierung noch? - interaktive Konzept-Demo
 Sebastian Hanisch - Operations Research und Machine Learning
 
 Fünftes Stück der Linie Bayessche Optimierung. Eine einzelne Frage: Wie wächst die Schwierigkeit mit der Zahl der Eingaben, und was hängt davon ab, wie viele davon wirken?
@@ -36,7 +36,7 @@ def _live(settings, methods):
     return {m: ev.run_one("hartmann", settings.dim, m, settings.seed, settings.n) for m in methods}
 
 
-st.title("📈 Hohe Dimensionen: wann trägt Bayessche Optimierung noch?")
+st.title("📈 Hohe Dimensionen: wann reicht Bayessche Optimierung noch?")
 st.markdown(
     """
 Eine verbreitete Faustregel sagt: Bayessche Optimierung funktioniere bis etwa 10 bis 20 Eingaben, darüber nicht mehr. Die Demo prüft die Regel an zwei Testfunktionen. **Hartmann6** hat
@@ -172,7 +172,7 @@ st.info("Der Vorzeichentest über **zehn** Läufe trennt nur klare Unterschiede 
         "zwischen ARD und gemeinsamem Längenmaß nichts nachweisbar. Der Vertrauensbereich bringt keinen durchgehenden Vorteil: bei 6 Eingaben besser, bei 48 schlechter.")
 
 st.subheader("🔬 Experiment 4: Was kostet es an Rechenzeit?")
-st.caption("Median der Rechenzeit je Lauf mit 100 Auswertungen in Sekunden (ein Rechner, ein Kern; nur die Größenordnung trägt, die Zeit hängt von Rechner und Bibliotheken ab).")
+st.caption("Median der Rechenzeit je Lauf mit 100 Auswertungen in Sekunden (ein Rechner, ein Kern; nur die Größenordnung zählt, die Zeit hängt von Rechner und Bibliotheken ab).")
 rows_t = []
 for p in C.PROBLEMS:
     for d in C.DIMENSIONS[p]:
